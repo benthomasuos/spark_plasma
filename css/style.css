@@ -1,0 +1,117 @@
+html {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	margin: 0;
+	min-height: 800px;
+}
+
+.jumbotron {
+	margin: 0;
+
+}
+
+a.link-card-large {
+	height: 80px;
+	text-decoration: none;
+	color: #37b;
+	text-align: center;
+	padding: 10px;
+
+}
+
+a.link-card-large:hover {
+	text-decoration: none;
+	color: #f7b;
+
+}
+
+.link-text {
+
+}
+
+.machine-card {
+	background: #eef;
+	min-height: 300px;
+	width: 100%;
+	margin: 2px;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+.machine-card > div{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#gallery {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#gallery > img {
+		min-width: 30%;
+		min-height: 200px;
+		background: #333;
+		border: solid 1px #333;
+		margin: 4px;
+}
+
+ #modalCover{
+
+
+ }
+
+ ol, ul{
+ 	font-size: 1.2em
+
+ }
+
+ table{
+ 	width: 95%;
+ 	margin: auto;
+ }
+
+table > thead > tr > th {
+ 	height: 30px;
+ 	padding: 2px;
+ 	padding-left: 10px;
+ }
+
+ table > tbody > tr {
+ 	height: 30px;
+ }
+
+
+
+ table > tbody > tr > td{
+ 	border: solid 1px #bbb;
+ 	border-collapse: collapse;
+ 	padding: 2px;
+ 	padding-left: 10px;
+
+ }
+
+
+
+ section{
+ 	border-top: solid #ddd 1px;
+ 	margin-bottom: 50px;
+ }
+
+ section > h2{
+ 	margin-left: 30px;
+ }
