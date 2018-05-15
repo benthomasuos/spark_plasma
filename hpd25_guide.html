@@ -18,6 +18,10 @@
 <div class='jumbotron text-center'>
   <h1>Field Assisted Sintering Technology @<br> The University of Sheffield</h1>
 </div>
+<div id='nav-bar'>
+	<a href='./index.html'> <i class='fas fa-home'></i>  Home </a>
+	<a href='https://www.startitanium.co.uk'>  <i class='far fa-star'></i>  STAR Group</a>
+</div>
 
 
 <div class='container-fluid'>
@@ -35,57 +39,92 @@
 <div class='container-fluid col-sm-6'>
 	<ul>
 		<li><a href='#alarms'><i class='fas fa-bell'></i> Alarms</a></li>
-		<li><a href='#cleaning'></a><i class='fas fa-broom'></i> Cleaning procedures</li>
+		<li><a href='#cleaning'><i class='fas fa-broom'></i> Cleaning procedures</a></li>
 		<li><a href='#maintenance'><i class='fas fa-wrench'></i> Maintenance procedures</a></li>
 	</ul>
+
+	<ul>
+		<li><a href='#pressure_calc'><i class='fas fa-calculator'></i>  Die Pressure Calculator</a></li>
+	</ul>
+	
 </div>
 
 </div>
 
 
-<section id='#machine_startup'>
+<section id='machine_startup'>
 	<h2>Machine startup</h2>
 
+	<div class='step'>
+		<h3>Turn on the machine</h3>
+	</div>
+
+	<div class='step'>
+		<h4>Turn on the machine</h4>
+	</div>
+
+	<div class='step'>
+		<h4>Turn on the machine</h4>
+	</div>
+
 
 
 </section>
 
-<section id='#sample_prep'>
+<section id='sample_prep'>
 	<h2>Sample preparation and loading</h2>
 
-
+	<div class='step'>
+		<h3>Weight sample powder</h3>
+	</div>
 
 </section>
 
-<section id='#process_setup'>
+<section id='process_setup'>
 	<h2>Recipe setup</h2>
 
 
 
 </section>
 
-<section id='#process_run'>
+<section id='process_run'>
 	<h2>Process run</h2>
+
+<div class='note warning'>
+	
+</div>
 
 
 </section>
 
-<section id='#process_end'>
+
+
+<section id='process_end'>
 	<h2>Process stop, sample removal and cleaning</h2>
 
 
 
 </section>
 
-<section id='#machine_shutdown'>
+<section id='machine_shutdown'>
 	<h2>Machine shutdown</h2>
 
 
 </section>
 
 
-<section id='#alarms'>
+<section id='alarms'>
 	<h2>Alarms</h2>
+	<div class='search-input'>
+		<label>Search code</label>
+		<div class='input-group'>
+			<input class='form-control' type='text' id='alarm_code' />
+			<div class='input-group-btn'>
+				<button onclick='resetAlarmSearch()'><i class='fas fa-sync'></i> Reset</button>
+			</div>
+		</div>
+	</div>
+
 	<table>
 		<thead>
 			<tr>
@@ -159,19 +198,37 @@
 </secion>
 
 
-<section id='#cleaning'>
+<section id='cleaning'>
 	<h2>Cleaning procedure</h2>
 
 
 </section>
 
 
-<section id='#maintenance'>
+<section id='maintenance'>
 	<h2>Maintenance procedures</h2>
 
 
 </section>
 
+
+<section id='pressure_calc'>
+	<h2>Ram pressure calculator</h2>
+	<div class='input-group'>
+		<span class='input-group-addon'>Diameter</span>
+		<input id='diameter' class='form-control' type='number' min=0 max=100 />
+	</div>
+	<div class='input-group'>
+		<span class='input-group-addon'>Pressure</span>
+		<input id='pressure' class='form-control' type='number' min=0 max=100 />
+	</div>
+	<div class='input-group'>
+		<span class='input-group-addon'>Load</span>
+		<input id='load' class='form-control' type='number' min=0 max=100 />
+	</div>
+
+
+</section>
 
 <div id='modelCover'></div>
 

@@ -12,7 +12,11 @@ body {
 
 .jumbotron {
 	margin: 0;
+	padding: 30px;
+}
 
+.jumbotron > h1{
+	font-size: 3em;
 }
 
 a.link-card-large {
@@ -80,6 +84,11 @@ a.link-card-large:hover {
 
  }
 
+ol > li, ul > li {
+	height: 28px;
+
+}
+
  table{
  	width: 95%;
  	margin: auto;
@@ -105,13 +114,81 @@ table > thead > tr > th {
 
  }
 
+.padded {
+	padding-top: 40px;
+	padding-bottom: 40px;
 
+}
 
  section{
  	border-top: solid #ddd 1px;
  	margin-bottom: 50px;
+ 	padding-left: 30px;
  }
 
  section > h2{
- 	margin-left: 30px;
+	font-weight: 600;
  }
+
+ #nav-bar {
+ 	width: 100%;
+ 	display: flex;
+ 	flex-flow: row;
+ 	align-content: center;
+ 	justify-content: flex-start;
+
+ }
+
+ #nav-bar > a {
+ 	display: flex;
+ 	flex-flow: row;
+ 	align-items: center;
+ 	justify-content: center;
+ 	width: 160px;
+ 	height: 40px;
+ 	background: #333;
+ 	color: #ddd;
+ 	font-size: 1.2em;
+ 	font-weight: 600;
+ 	text-decoration: none;
+ }
+
+ #nav-bar > a:hover {
+ 	background: #339;
+ 	color: #ddd;
+ 	text-decoration: none;
+ }
+
+ #nav-bar > a > i {
+ 	margin-right: 10px;
+
+ }
+
+
+
+ .search-input {
+ 	display: inline-block;
+ 	float: left;
+ 	margin-left: 2.5%;
+
+ }
+ 
+ #pressure_calc > .input-group	{
+ 	width: 300px;
+ }
+
+#pressure_calc > .input-group > .input-group-addon	{
+ 	width: 100px;
+ }
+
+
+.note {
+	width: 90%;
+	margin: auto;
+	border: solid 2px #ddd;
+	background: #eee;
+	min-height: 30px;
+	border-radius: 4px;
+	margin: 10px;
+
+}
