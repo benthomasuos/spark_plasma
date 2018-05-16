@@ -3,16 +3,18 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600,800" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<link rel='stylesheet' href='./css/style.css'>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<link rel='stylesheet' href='./css/style.css'>
 
 <title>FAST at Sheffield</title>
 </head>
 <body>
+<div class='container-fluid'>
 <div class='jumbotron text-center'>
   <h1>Field Assisted Sintering Technology @<br> The University of Sheffield</h1>
 </div>
@@ -21,80 +23,33 @@
 	<a href='https://www.startitanium.co.uk'>  <i class='far fa-star'></i>  STAR Group</a>
 </div>
 
-<section id='machine_startup'>
-	<h2>User and technician list</h2>
-	<table>
-		<thead>
-			<tr>
-				<th colspan=3 ></th>
-				<th colspan=2 style="text-align:center">Contact</th>
-			</tr>
-			<tr>
-				<th>Name</th>
-				<th>User type</th>
-				<th>Office/location</th>
-				<th>Email</th>
-				<th>Phone</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Ben Thomas</td>
-				<td>Super user/ Trainer</td>
-				<td>D1, Hadfield Building</td>
-				<td><a href="mailto:b.thomas@sheffield.ac.uk">b.thomas@sheffield.ac.uk</a></td>
-				<td><a href="tel:+44114 222 6030">0114 222 6030</a></td>
-			</tr>
-			<tr>
-				<td>Nick Weston</td>
-				<td>Super user/ Trainer</td>
-				<td>D1, Hadfield Building</td>
-				<td><a href="mailto:n.weston@sheffield.ac.uk">n.weston@sheffield.ac.uk</a></td>
-				<td><a href="tel:+44114 222 6030">0114 222 6030</a></td>
-			</tr>
-			<tr>
-				<td>Dikai Guan</td>
-				<td>Super user/ Trainer</td>
-				<td>G8, Hadfield Building</td>
-				<td><a href="mailto:diaki.guan@sheffield.ac.uk">diaki.guan@sheffield.ac.uk</a></td>
-				<td></td>
-			</tr>
-		</tbody>
-	</table>
 
+<div class='container-fluid'>
+<h2>FCT HPD 25 - User Guide</h2>
+<div class='container-fluid col-sm-6'>
+	<ol>
+		<li><a href='#machine_startup'>Machine startup</a></li>
+		<li><a href='#sample_prep'>Sample preparation and loading</a></li>
+		<li><a href='#process_setup'>Recipe setup</a></li>
+		<li><a href='#process_run'>Process run</a></li>
+		<li><a href='#process_end'>Process stop, sample removal and cleaning</a></li>
+		<li><a href='#machine_shutdown'>Machine shutdown</a></li>
+	</ol>
+</div>
+<div class='container-fluid col-sm-6'>
+	<ul>
+		<li><a href='#alarms'><i class='fas fa-bell'></i> Alarms</a></li>
+		<li><a href='#cleaning'><i class='fas fa-broom'></i> Cleaning procedures</a></li>
+		<li><a href='#maintenance'><i class='fas fa-wrench'></i> Maintenance procedures</a></li>
+	</ul>
 
-</section>
-
-<div class="container-fluid inverse">
-	<section class='inverse'>
-
-	<div class='container-fluid col-sm-6'>
-		<h2>FCT HPD 25 - User Guide</h2>
-		<ol>
-			<li><a href='#users'>User and technician list</a></li>
-			<li><a href='#machine_startup'>Machine startup</a></li>
-			<li><a href='#sample_prep'>Sample preparation and loading</a></li>
-			<li><a href='#process_setup'>Recipe setup</a></li>
-			<li><a href='#process_run'>Process run</a></li>
-			<li><a href='#process_end'>Process stop, sample removal and cleaning</a></li>
-			<li><a href='#machine_shutdown'>Machine shutdown</a></li>
-		</ol>
-	</div>
-	<div class='container-fluid col-sm-6'>
-		<h3>Other items</h3>
-		<ul>
-			<li><a href='#alarms'><i class='fas fa-bell'></i> Alarms</a></li>
-			<li><a href='#failures'><i class='fas fa-exclamation-triangle'></i> Failures</a></li>
-			<li><a href='#cleaning'><i class='fas fa-broom'></i> Cleaning procedures</a></li>
-			<li><a href='#maintenance'><i class='fas fa-wrench'></i> Maintenance procedures</a></li>
-			<li><a href='#pressure_calc'><i class='fas fa-calculator'></i>  Die Pressure Calculator</a></li>
-		</ul>
-		
-	</div>
-
-	</section>
+	<ul>
+		<li><a href='#pressure_calc'><i class='fas fa-calculator'></i>  Die Pressure Calculator</a></li>
+	</ul>
+	
 </div>
 
+</div>
 
 
 <section id='machine_startup'>
@@ -102,7 +57,6 @@
 
 	<div class='step'>
 		<h3>Turn on the machine</h3>
-		<img class='figure right' src="http://143.167.48.53:8000/images/IMG_2089.jpg" height=300>
 	</div>
 
 	<div class='step'>
@@ -241,55 +195,7 @@
 		</tbody>
 	</table>
 
-</section>
-
-<section id='failures'>
-	<h2>Furnace failures</h2>
-	
-	<table>
-		<thead>
-			<tr>
-				<th>Failure</th>
-				<th>Cause/ Possible Consequences</th>
-				<th>Solution</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Whistling, noise</td>
-				<td>
-					<ul>
-						<li>Air penetrates the chamber. At a chamber temperature above 100ºC this can lead to burning of parts inside the chamber.</li>
-					</ul>
-				</td>
-				<td>Flush chamber with argon or nitrogen; whichever is suitable for your material.</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-		</tbody>
-	</table>
-
-</section>
-
-
+</secion>
 
 
 <section id='cleaning'>
@@ -301,14 +207,6 @@
 
 <section id='maintenance'>
 	<h2>Maintenance procedures</h2>
-
-	<div class='sopDiv' id="top_pyro">
-		<h3>Top pyrometer cleaning and alignment</h3>
-		<div class='sop'>
-
-
-		</div>
-	</div>
 
 
 </section>

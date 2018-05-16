@@ -1,14 +1,41 @@
 html {
 	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
 body {
 
 	font-family: 'Raleway', sans-serif;
-	width: 100%;
 	margin: 0;
+	padding: 0;
+	width: 100%;
 	min-height: 800px;
 }
+
+.inverse{
+	color: #ddd;
+	background: #444;
+
+}
+
+
+a {
+	color: #c88;
+
+}
+
+a:hover {
+	color: #faa;
+
+}
+
+.inverse * a {
+	color: #8cc;
+
+}
+
 
 .jumbotron {
 	margin: 0;
@@ -22,7 +49,6 @@ body {
 a.link-card-large {
 	height: 80px;
 	text-decoration: none;
-	color: #37b;
 	text-align: center;
 	padding: 10px;
 
@@ -68,7 +94,7 @@ a.link-card-large:hover {
 
 #gallery > img {
 		min-width: 30%;
-		min-height: 200px;
+		height: 200px;
 		background: #333;
 		border: solid 1px #333;
 		margin: 4px;
@@ -79,37 +105,30 @@ a.link-card-large:hover {
 
  }
 
- ol, ul{
- 	font-size: 1.2em
 
- }
-
-ol > li, ul > li {
-	height: 28px;
-
-}
-
- table{
+table{
  	width: 95%;
  	margin: auto;
  }
 
 table > thead > tr > th {
  	height: 30px;
- 	padding: 2px;
+ 	padding: 6px;
  	padding-left: 10px;
+ 	border: solid 1px #bbb;
  }
 
  table > tbody > tr {
- 	height: 30px;
+ 	min-height: 40px;
  }
 
 
 
- table > tbody > tr > td{
+ td{
+
  	border: solid 1px #bbb;
  	border-collapse: collapse;
- 	padding: 2px;
+ 	padding: 6px;
  	padding-left: 10px;
 
  }
@@ -192,3 +211,65 @@ table > thead > tr > th {
 	margin: 10px;
 
 }
+
+img {
+  display: inline-block;
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+
+
+img.figure{
+	border: solid #ddd 1px;
+	padding: 4px;
+	margin: 20px;
+
+
+}
+
+img.center{
+	margin: auto;
+}
+
+
+img.left{
+	float: left;
+	margin-left: 20px ;
+}
+
+img.right{
+	float: right;
+	margin-right: 20px ;
+}
+
+
+
+img.thumbnail{
+	width: 200px;
+
+}
+
+
+.sopDiv{
+	margin: 8px;
+	width: 95%;
+	margin: auto;
+
+
+}
+
+.sopDiv > h3{
+	border-bottom: solid #333 1px;
+	text_align: center;
+	padding: 10px;
+	margin: auto;
+}
+
+.warning {
+background: #f
+
+}
+
+
